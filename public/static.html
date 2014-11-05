@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+<head>
+	<title>P&aacute;gina est&aacute;tica</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script>
+	$(document).ready(function () {
+		$.getJSON("/hello", function (data) {
+			alert("ID: " + data.id);
+		});
+	});
+	</script>
+</head>
+<body>
+	Esta es una pagina est&aacute;tica
+</body>
+</html>
